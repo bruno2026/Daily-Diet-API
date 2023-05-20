@@ -3,10 +3,11 @@ node_modules
 
 # Database
 db/*.db
-
+tmp/*.db
 # Environment
 .env
 .env.test
 
 # Build
 build
+
