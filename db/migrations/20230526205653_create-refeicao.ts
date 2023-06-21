@@ -8,7 +8,7 @@ export async function up(knex: Knex): Promise<void> {
     table.string('descricao')
     table.dateTime('data_hora')
     table.boolean('esta_na_dieta')
-    table.integer('user').unsigned().references('user.id')
+    table.uuid('user').unsigned().references('user.id')
   })
 }
 
